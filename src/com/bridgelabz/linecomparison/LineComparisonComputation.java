@@ -27,6 +27,20 @@ public class LineComparisonComputation {
 			System.out.println("Length of both Lines are Not Equal");  //UC2
 		}
 		
+		System.out.println();
+		
+		if(Double.compare(Length1, Length2)==0)
+		{
+			System.out.println("Length 1 = Length 2");  //UC3
+		}else if(Double.compare(Length1, Length2)<0)
+		{
+			System.out.println("Length 1 < Length 2");  //UC3
+		}else
+		{
+			System.out.println("Length 1 > Length 2");  //UC3
+		}
+
+		
 	}
 
 }
